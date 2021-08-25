@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tickets</title>
+    <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+    <div class="container ticket-box">
+        <a href="/">Home</a>
+        <div class="content-ticket">
+            <div class="ticket__header">
+                <span>WHAT</span>
+                <h1 class="my-2 primary-color" id="title"></h1>
+            </div>
+            <div class="ticket__header bg-light">
+                <span>WHERE</span>
+                <h2 class="my-2" id="where"></h2>
+            </div>
+            <div class="ticket__specs bg-light">
+                <div>
+                    <span>When</span>
+                    <h3 class="my-2" id="when"></h3>
+                </div>
+                <div>
+                    <span>From</span>
+                    <h3 class="my-2" id="timeStart"></h3>
+                </div>
+                <div>
+                    <span>To</span>
+                    <h3 class="my-2" id="timeEnd"></h3>
+                </div>
+            </div>
+            <div class="ticket__footer">
+                <p>Biljettnummer: <span id="ticketId"></span> </p>
+            </div>
+        </div>
+    </div>
+        <script src="/assets/tickets.js"></script>
+</body>
+</html>

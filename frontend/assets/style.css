@@ -1,0 +1,305 @@
+         *,::after, ::before {
+             box-sizing: border-box;             
+         }
+
+        body {
+            /* display: flex; */
+            padding:0;
+            margin:0;
+            background-color:#fff;
+        }
+
+        /* Utility Class */
+        .primary-color {
+            color:#F56B9A;
+        }
+        .secondary-color {
+            color:#231c40;
+        }
+
+        .primary-bg {
+            background:#F56B9A;
+        }
+        .secondary-bg {
+            background:#231c40;
+        }
+        .third-color {
+            color:#37AEAB;
+        }
+        .third-bg {
+            background:#37AEAB;
+        }
+
+        .my-2 {
+            margin-top:.5rem;
+            margin-bottom:.5rem;
+        }
+
+        .bg-light {
+            background:#efefef;
+        }
+
+        .bg-yellow {
+            background: #F39440;
+        }
+
+        .prevent-click {
+            pointer-events: none;
+        }
+
+
+        /* Events */
+
+        .container {
+            padding: 1rem;
+            height: 100vh;
+            width: 100%;
+            max-width: 375px;
+            margin: 10px auto;
+            max-height: 712px;
+        }
+
+        .header #login {
+            display: block;
+            color: #fff;
+            text-align: right;
+            font-size:1.3rem;
+            text-decoration: none;
+            letter-spacing:.6rem;
+        }
+
+        .header h1 {
+            text-align: center;
+            font-weight: 900;
+            font-size:3.3rem;
+        }
+
+        .event {
+            display: flex;
+            margin-bottom: 2rem;
+            text-decoration: none;
+        }
+
+        .event__date {
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 25%;
+            color:#fff;
+            border: 1px solid #fff;
+            padding:1rem;
+        }
+
+        .event__content {
+            width: 75%;
+            padding: 0 1rem;
+        }
+
+        .event__content h1 {
+            text-shadow: 1px 1px 0px #F56B9A;
+            color:#fff;
+            font-weight: 600;
+            margin: 0;
+        }
+        .event__content p {
+            color:#ccc;
+            margin:0;
+            line-height: 1.9rem;
+        }
+        .event__content h5 {
+            display:flex;
+            justify-content: space-between;
+            color:#fff;
+            margin:0;
+            border-bottom: .8px solid #bbb;
+        }
+        
+        .event__content .left {
+            color:#F56B9A;
+        }
+
+        .event__content h5 .pris {
+            color:#6eadaa;
+            font-size: 1.2rem;
+        }
+
+        /* BUY */
+
+        .content-box p {
+            font-family: Fira Sans;
+            font-size: 19px;
+            font-style: italic;
+            font-weight: 400;
+            line-height: 23px;
+            letter-spacing: 0em;
+            text-align: center;
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        .content-box div h2 {
+            font-family: Sansita One;
+            font-size: 35px;
+            line-height: 41px;
+            text-align: center;
+        }
+
+        .content-box div h4 {
+            font-family: Fira Sans;
+            font-weight: bold;
+            font-size: 19px;
+            line-height: 23px;
+            text-align: center;
+        }
+
+        .content-box h6 {
+            font-family: Fira Sans;
+            font-style: italic;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: center;
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        .pris-box {
+            margin:150px 0;
+        }
+
+        .pris-box h3 {
+            font-family: Fira Sans;
+            font-weight: bold;
+            font-size: 32px;
+            line-height: 38px;
+            text-align: center;
+            color: #FFFFFF;
+            text-shadow: 1px 1px 0px #F56B9A;
+        }
+
+        .button-box button {
+            display: block;
+            width: 100%;
+            padding: 1rem;
+            font-family: Fira Sans;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 26px;
+            text-align: center;
+        }
+
+        /* TICKETS */        
+        .ticket-box {
+            display:flex;
+            flex-direction: column;
+            justify-content:center;
+            background-color:#231F42;
+            /* background-image: linear-gradient(#F56B9A,#F56B9A 10%,transparent); */
+        }
+
+        .ticket-box a {
+            display:block;
+            color: #F56B9A;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size:2rem;
+            text-decoration: none;
+        }
+
+        .content-ticket {
+            width: 100%;
+            background:#fff;
+        }
+
+        .ticket__header {
+            padding: 1rem;
+            box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.34);
+            border-radius: 3px;
+            /* border: 1px dashed rgba(0, 0, 0, 0.4); */
+        }
+
+        .ticket__header span {
+            font-size: .9rem;
+            color:#999;
+
+        }
+
+        .ticket__specs {
+            display:flex;
+            justify-content: space-between;
+        }
+
+        .ticket__specs div {
+            border: 1px solid #aaa;
+            padding: 1rem ;
+            flex: 1;
+        }
+
+        .ticket__footer {
+            padding: 1rem ;
+            text-align: center
+        }
+
+        /* STAFF */
+
+        .login-container {
+            display:flex;
+            flex-direction:column;            
+        }
+
+        .login-container div {
+            display:flex;
+            flex-direction:column;
+            flex: 1;
+        }
+
+        .image-box {
+            justify-content: center;
+            align-items: center;
+        }
+
+        .image-box h3 {
+            margin: 0.3rem 0;
+            font-weight: 600;
+            font-size:1.3rem;
+            
+        }
+
+        .image-box h5 {
+            margin: .3rem 0;
+            font-weight: 400;
+            font-size: 1.5rem;
+            letter-spacing: .5rem;
+        
+            
+        }
+
+        .form-box {
+            padding: 0 1rem;
+        }
+
+ 
+       .form-box input {
+            display:block;
+            width:100%;
+            padding: 1rem;
+            margin-bottom:1rem;
+            background-color: transparent;
+            border: 2px solid #231F42
+        }
+
+        .form-box input::placeholder {
+            color: #231c40;
+            text-align: center;
+            font-size:1.2rem;
+            font-weight: 600;
+        }
+
+        .form-box button {
+            display:block;
+            width:100%;
+            padding:1rem;
+            color:#fff;
+        }
+
+
+
+        

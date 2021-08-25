@@ -1,0 +1,73 @@
+{
+  "events": [
+    {
+      "id": "ABC121",
+      "title": "Lasse-Stefanz",
+      "where": "Kjell Härnqvistsalten",
+      "start": 19,
+      "day": "21",
+      "month": "MAR",
+      "end": 21,
+      "price": "78 sek",
+      "total": 5,
+      "bought": 5
+    },
+    {
+      "id": "ABC122",
+      "title": "Pelle Trubadur",
+      "where": "Pubelipuden",
+      "day": "29",
+      "month": "MAR",
+      "start": 10,
+      "end": 15,
+      "price": "190 sek",
+      "total": 5,
+      "bought": 5
+    },
+    {
+      "id": "ABC123",
+      "title": "Kajsas kör",
+      "where": "Götaplatsen",
+      "start": "15.00",
+      "end": "16.00",
+      "day": "10",
+      "month": "APR",
+      "price": "99 sek",
+      "total": 5,
+      "bought": 5
+    },
+    {
+      "id": "ABC124",
+      "title": "Klubb Untz",
+      "where": "Centralen",
+      "day": "17",
+      "month": "APR",
+      "start": 20,
+      "end": 23,
+      "price": "35 sek",
+      "total": 5,
+      "bought": 5
+    }
+  ],
+  "staff": [
+    {
+      "username": "Nur",
+      "password": "$2b$10$nC.lVM46nX4WxWAwhuXN7OAA3vJgp49Qaj/bUwKOigmVTnD4hpk7e",
+      "email": "nuregal@gmail.com",
+      "firstname": "Nur",
+      "lastname": "Egal",
+      "role": "staff",
+      "id": "NFZ8vzTiCbpDd9sJwxZG1"
+    }
+  ],
+  "tickets": [
+    {
+      "id": "_6mYAtPwlqijyh5hW3o_Z",
+      "eventId": "ABC124"
+    },
+    {
+      "id": "N_tXOHqu1nGYmBeM7eh4e",
+      "eventId": "ABC124"
+    }
+  ]
+}

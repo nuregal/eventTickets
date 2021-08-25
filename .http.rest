@@ -1,0 +1,38 @@
+GET http://localhost:3000/api/events HTTP/1.1
+
+###
+POST http://localhost:3000/api/buy HTTP/1.1
+Content-Type: application/json
+
+{
+    "id": "ABC121"
+}
+
+###
+GET  http://localhost:3000/api/tickets/ABC124 HTTP/1.1
+
+###
+
+POST http://localhost:3000/api/staff/login HTTP/1.1
+Content-Type: application/json
+
+{
+    "username": "Ada",
+    "password": "pwd123"
+}
+
+###
+POST http://localhost:3000/api/staff/verify HTTP/1.1
+Content-Type: application/json
+
+{
+    "id":"ABC13"
+}
+
+###
+POST http://localhost:3000/api/tickets HTTP/1.1
+Content-Type: application/json
+
+{
+    "eventId": "ABC122"
+}
